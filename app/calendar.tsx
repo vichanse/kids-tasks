@@ -74,7 +74,7 @@ function Calendar() {
           <Metric>Keyrwynn</Metric>
           <Text>{getTaskById(tasks[taskIndex][0])?.task}</Text>
           <Image
-            src={`/${getTaskById(tasks[taskIndex][0])?.icon}`}
+            src={`/${getTaskById(tasks[taskIndex][0])?.id}-keyrwynn.svg`}
             alt=""
             width={100}
             height={100}
@@ -89,7 +89,7 @@ function Calendar() {
           <Metric>Keyshawn</Metric>
           <Text>{getTaskById(tasks[taskIndex][1])?.task}</Text>
           <Image
-            src={`/${getTaskById(tasks[taskIndex][1])?.icon}`}
+            src={`/${getTaskById(tasks[taskIndex][1])?.id}-keyshawn.svg`}
             alt=""
             width={100}
             height={100}
@@ -104,7 +104,7 @@ function Calendar() {
           <Metric>Keylia</Metric>
           <Text>{getTaskById(tasks[taskIndex][2])?.task}</Text>
           <Image
-            src={`/${getTaskById(tasks[taskIndex][2])?.icon}`}
+            src={`/${getTaskById(tasks[taskIndex][2])?.id}-keylia.svg`}
             alt=""
             width={100}
             height={100}
